@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 184 91% 17%;
+    --card: 0 0% 100%;
+    --card-foreground: 184 91% 17%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 184 91% 17%;
+    --primary: 180 25% 65%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 180 25% 90%;
+    --secondary-foreground: 184 91% 17%;
+    --muted: 180 25% 90%;
+    --muted-foreground: 184 50% 40%;
+    --accent: 180 25% 90%;
+    --accent-foreground: 184 91% 17%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 180 25% 85%;
+    --input: 180 25% 85%;
+    --ring: 180 25% 65%;
+    --radius: 0.5rem;
+    --teal-primary: 180 25% 65%;
+    --teal-dark: 184 91% 17%;
+    --teal-light: 180 25% 90%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-slate-800;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom teal colors */
+.bg-teal-primary {
+  background-color: hsl(180 25% 65%);
+}
+
+.bg-teal-dark {
+  background-color: hsl(184 91% 17%);
+}
+
+.bg-teal-light {
+  background-color: hsl(180 25% 90%);
+}
+
+.text-teal-primary {
+  color: hsl(180 25% 65%);
+}
+
+.text-teal-dark {
+  color: hsl(184 91% 17%);
+}
+
+.border-teal-primary {
+  border-color: hsl(180 25% 65%);
+}
+
+/* Hero background overlay */
+.hero-overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+}
