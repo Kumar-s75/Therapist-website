@@ -12,13 +12,13 @@ const services = [
   },
   {
     title: "Relationship Counseling in Los Angeles, CA",
-    description: "Heal Your Relationship, Grow Closer Together. We help couples improve communication, resolve conflict, and rebuild trust. Whether you're navigating a rough patch or simply want to strengthen your connection, counseling provides a supportive space to grow together.",
+    description: "Heal Your Relationship, Grow Closer Together. Whether you're navigating a rough patch or simply want to strengthen your connection, counseling provides a supportive space to grow together.",
     image: "https://images.pexels.com/photos/1417255/pexels-photo-1417255.jpeg",
     price: "$240 / couples session",
   },
   {
     title: "Trauma Recovery in Los Angeles, CA",
-    description: "Heal from the Past, Reclaim Your Strength. Our trauma-informed approach helps individuals process painful experiences in a safe, compassionate environment. Through evidence-based therapies, we support your journey toward emotional healing and renewed self-confidence.",
+    description: "Heal from the Past, Reclaim Your Strength.Through evidence-based therapies and Our trauma-informed approach, we support your journey toward emotional healing and renewed self-confidence.",
     image: "https://plus.unsplash.com/premium_photo-1706429675518-b6868cdb195c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhhcHB5JTIwcGVyc29uJTIwYWZ0ZXIlMjB0cmF1bWF8ZW58MHx8MHx8fDA%3D",
     price: "$200 / individual session",
   },
