@@ -15,6 +15,7 @@ interface FormData {
   whatBringsYou: string
   preferredTime: string
   agreeToContact: boolean
+  recaptchaVerified?:boolean
 }
 
 interface FormErrors {
@@ -24,6 +25,8 @@ interface FormErrors {
   whatBringsYou?: string
   preferredTime?: string
   agreeToContact?: string
+ recaptchaVerified?:string
+
 }
 
 export default function Contact() {
@@ -189,7 +192,7 @@ export default function Contact() {
                   </p>
                    <h3 className="text-xl font-bold text-teal-dark mb-6">Virtual via Zoom:</h3>
                   <p>
-                    <span className="font-medium">Mon,Wed & Fri:</span> 10:00 AM - 6:00 PM
+                    <span className="font-medium">Mon,Wed & Fri :</span> 10:00 AM - 6:00 PM
                   </p>
                  
                 </div>
@@ -318,12 +321,13 @@ export default function Contact() {
 
                   {/* reCAPTCHA placeholder */}
                   <div className="flex items-center space-x-3 p-4 border border-gray-300 rounded-lg bg-gray-50">
-                     {/* <Checkbox
-                      id="reCaptcha"
-                      checked={formData.notarobot}
-                      onCheckedChange={(checked) => handleInputChange("notarobot", checked as boolean)}
-                      className={`mt-1 ${errors.agreeToContact ? "border-red-500" : "border-gray-400"}`}
-                    /> */}
+                    <Checkbox
+  id="recaptcha"
+  checked={formData.recaptchaVerified}
+  onCheckedChange={(checked) => handleInputChange("recaptchaVerified", checked as boolean)}
+  className={`mt-1 ${errors.recaptchaVerified ? "border-red-500" : "border-gray-400"}`}
+/>
+
                     <label htmlFor="recaptcha" className="text-sm text-gray-700">
                       I'm not a robot
                     </label>

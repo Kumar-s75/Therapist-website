@@ -6,23 +6,24 @@ import Image from "next/image"
 const services = [
   {
     title: "Anxiety and Stress Management in Los Angeles, CA",
-    description: "Find Calm, Build Resilience, and Regain Balance in Los Angeles",
+    description: "Find Calm, Build Resilience, and Regain Balance in Los Angeles. Our sessions provide tools to identify triggers, reduce overwhelm, and foster emotional regulation. ",
     image: "https://images.unsplash.com/photo-1635919369557-abd7a91ed520?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBlcnNvbiUyMGhhcHB5JTIwYWZ0ZXIlMjBhbnhpZXR5JTIwYW5kJTIwc3RyZXN8ZW58MHx8MHx8fDA%3D",
     price: "$200 / individual session",
   },
   {
     title: "Relationship Counseling in Los Angeles, CA",
-    description: "Heal Your Relationship, Grow Closer Together in Los Angeles.",
+    description: "Heal Your Relationship, Grow Closer Together. We help couples improve communication, resolve conflict, and rebuild trust. Whether you're navigating a rough patch or simply want to strengthen your connection, counseling provides a supportive space to grow together.",
     image: "https://images.pexels.com/photos/1417255/pexels-photo-1417255.jpeg",
     price: "$240 / couples session",
   },
-   {
+  {
     title: "Trauma Recovery in Los Angeles, CA",
-    description: "Heal from the Past, Reclaim Your Strength in Los Angeles.",
+    description: "Heal from the Past, Reclaim Your Strength. Our trauma-informed approach helps individuals process painful experiences in a safe, compassionate environment. Through evidence-based therapies, we support your journey toward emotional healing and renewed self-confidence.",
     image: "https://plus.unsplash.com/premium_photo-1706429675518-b6868cdb195c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhhcHB5JTIwcGVyc29uJTIwYWZ0ZXIlMjB0cmF1bWF8ZW58MHx8MHx8fDA%3D",
     price: "$200 / individual session",
   },
-]
+];
+
 
 export default function Services() {
   const scrollToContact = () => {
